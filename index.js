@@ -9,7 +9,7 @@ var routes = {
         res.writeHead(200, 'OK')
         res.write('<html><head><meta charset="gdk"></head>')
         res.write('<body><h1>Login</h1><form method="GET"><input type="text" value="username">')
-        res.write('</br><input type="text" value="password"></br><input type="submit">')
+        res.write('</br></br><input type="text" value="password"></br></br><input type="submit">')
         res.write('</form></body></html>')
         res.end()
     },
@@ -18,8 +18,8 @@ var routes = {
         res.writeHead(200, 'OK')
         res.write('<html><head><meta charset="gdk"></head>')
         res.write('<body><h1>Register</h1><form method="GET"><input type="text" value="username">')
-        res.write('</br><input type="text" value="password"></br><input type="text" value="password again">')
-        res.write('</br><input type="submit"></form></body></html>')
+        res.write('</br></br><input type="text" value="password"></br></br><input type="text" value="password again">')
+        res.write('</br></br><input type="submit"></form></body></html>')
         res.end()
     },
     '/info': function(req, res){
